@@ -4,5 +4,7 @@ and respond with a greeting using there name
 """
 
 print (" Hello! Welcome! ")
-name = input("what is your name? ")
-print (" hello " +name+ "")
+
+name =input('what is your name? ')
+
+print ("Hello " + name+ "!")
