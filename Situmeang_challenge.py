@@ -14,4 +14,16 @@ b = float(input("Please input side b: "))
 
 c = float(input("Please input side c: "))
 
-c = sqrt( a**2 + b**2 == c)
+ab = sqrt( a**2 + b**2 )
+
+if (a+b < c):
+     print(' This is not a triangle')
+        
+if (a**2 + b**2 == c**2):
+    print (' This is a right triangle')
+        
+if (a**2 + b**2 < c**2):
+    print (' This is an obuse triangle')
+    
+if (a**2 + b**2 > c**2):
+    print (' This is an acute triangle')
